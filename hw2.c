@@ -4,7 +4,7 @@
 #include <string.h>
 
 #define MAX_INPUT_SIZE 12
-#define MAX_N 1000
+#define MAX_N 5000
 
 typedef struct vector {
     int *data;      
