@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_SIZE 10
+#define MAX_INPUT_SIZE 12
+#define MAX_N 1000
 
 typedef struct vector {
     int *data;      
@@ -80,15 +81,15 @@ typedef struct Pair {
     int second;
 } Pair;
 
-Node nodes[MAX_SIZE];
-int res[1 << MAX_SIZE][MAX_SIZE] = {0};
+Node nodes[MAX_N];
+int res[1 << MAX_INPUT_SIZE][MAX_N] = {0};
 void solve(vector* input_nodes, int n, int mask) {
     // topo sort
-    int inDegree[MAX_SIZE] = {0};
+    int inDegree[MAX_N] = {0};
     for (int i = 0; i < n; i++) inDegree[i] = nodes[i].inputs->size;
     
-    int bits[MAX_SIZE] = {0};
-    int queue[MAX_SIZE];
+    int bits[MAX_N] = {0};
+    int queue[MAX_N];
     int front = 0, back = 0;
     int k = input_nodes->size - 1;
     for (int i = 0; i < input_nodes->size; i++) {
@@ -131,7 +132,7 @@ int main(int argc, char** argv) {
     }
 
     int open = 0, stanza_index = 0, n = 0;
-    int unique_ids[MAX_SIZE] = {0};
+    int unique_ids[MAX_N] = {0};
     char line[256];
     while (fgets(line, sizeof(line), file)) {
         if (strchr(line, '{')) { stanza_index = 0; open++; continue; }

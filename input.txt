@@ -1,9 +1,9 @@
 {
-{
+            {       
 Type=INPUT
 UniqueID=0
-Input=
-Output=2,4,
+Input=        
+Output=2,4,        
 }
 {
 Type=INPUT
