@@ -1,0 +1,26 @@
+{
+     {
+   Type=NOT 
+  UniqueID=0  
+    Input=2,     
+     Output=  
+     }     
+    {
+  Type=INPUT   
+ UniqueID=3   
+  Input=
+ Output=
+  }
+   {
+    Type=XOR 
+ UniqueID=2 
+    Input=     
+ Output=0,    
+ } 
+   { 
+Type=OUTPUT   
+  UniqueID=1 
+Input= 
+     Output=     
+    } 
+}

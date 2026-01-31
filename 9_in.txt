@@ -1,0 +1,260 @@
+{
+   { 
+Type=OR
+UniqueID=12  
+  Input=  
+    Output=  
+}
+    {  
+ Type=INPUT    
+  UniqueID=21     
+     Input=     
+Output=33, 
+    }
+     { 
+     Type=XOR    
+ UniqueID=3 
+     Input=   
+  Output=
+  }   
+   {   
+ Type=INPUT
+ UniqueID=7     
+     Input=
+   Output=
+   }
+    {   
+   Type=AND     
+UniqueID=27  
+    Input=     
+   Output=30,    
+ }
+  {     
+  Type=NOT
+   UniqueID=28     
+  Input=38, 
+    Output=     
+  } 
+ { 
+     Type=XOR
+    UniqueID=25   
+Input= 
+  Output=39,     
+     }  
+  {    
+Type=AND  
+  UniqueID=6     
+  Input=  
+Output=   
+ }     
+{
+    Type=OR  
+     UniqueID=0  
+   Input=     
+  Output=
+   }    
+  {
+     Type=AND  
+     UniqueID=32    
+ Input=    
+Output=  
+    }     
+ {   
+     Type=XOR    
+ UniqueID=9
+     Input=    
+   Output=   
+}   
+ {   
+     Type=XOR  
+    UniqueID=31   
+   Input=
+     Output=    
+}     
+  {    
+     Type=OR    
+    UniqueID=42     
+ Input=     
+    Output= 
+     } 
+ {
+     Type=AND
+   UniqueID=14
+Input= 
+ Output=
+  }    
+  {     
+  Type=AND
+  UniqueID=29    
+ Input= 
+  Output=     
+  }     
+   {    
+    Type=XOR
+ UniqueID=15    
+  Input=     
+    Output=   
+ }    
+ {   
+  Type=INPUT  
+ UniqueID=35  
+   Input=    
+    Output=     
+     }
+{   
+    Type=AND
+UniqueID=24  
+Input= 
+   Output=    
+   } 
+   { 
+     Type=NOT     
+    UniqueID=33  
+   Input=21,   
+  Output=    
+ }
+     {   
+Type=XOR 
+    UniqueID=41
+  Input=   
+     Output=   
+   } 
+  {     
+    Type=AND  
+     UniqueID=26 
+    Input= 
+  Output=    
+}  
+    { 
+     Type=XOR    
+ UniqueID=18     
+   Input=  
+Output= 
+}
+    {  
+ Type=OR 
+ UniqueID=19     
+    Input=
+  Output=     
+}  
+   {
+     Type=AND   
+  UniqueID=23 
+     Input=    
+    Output=
+   }
+    {   
+   Type=OR
+     UniqueID=20 
+Input=  
+  Output= 
+    } 
+ {     
+     Type=XOR
+    UniqueID=2
+   Input=    
+     Output=
+    }     
+     {   
+Type=NOT  
+   UniqueID=30   
+  Input=27,     
+     Output=
+    }     
+  {     
+ Type=OUTPUT     
+   UniqueID=13   
+    Input=
+  Output= 
+   }    
+   {  
+   Type=AND 
+     UniqueID=11    
+  Input=   
+ Output=    
+    } 
+   {   
+Type=XOR  
+    UniqueID=38
+  Input= 
+  Output=28,
+    } 
+ {     
+Type=AND  
+   UniqueID=34  
+  Input=   
+  Output= 
+}
+ { 
+    Type=INPUT 
+   UniqueID=40  
+Input=
+ Output=  
+ }
+{     
+    Type=OUTPUT 
+ UniqueID=36
+  Input=     
+Output=     
+   }  
+     {   
+Type=OUTPUT    
+UniqueID=8  
+  Input=    
+ Output=
+}
+     {     
+     Type=INPUT
+   UniqueID=10 
+ Input=  
+ Output=  
+   }  
+  {     
+Type=XOR     
+     UniqueID=37 
+ Input=     
+ Output=  
+   }    
+  { 
+  Type=OR  
+   UniqueID=1
+    Input=  
+ Output= 
+  } 
+     {   
+    Type=AND   
+ UniqueID=22 
+ Input=   
+  Output=
+} 
+   {   
+   Type=INPUT     
+     UniqueID=17    
+     Input=     
+Output=    
+    }
+ {
+    Type=NOT
+  UniqueID=5    
+ Input=4,     
+ Output=    
+}     
+    {     
+Type=NOT    
+ UniqueID=39   
+    Input=25,
+Output=    
+   }
+{  
+ Type=AND   
+UniqueID=4 
+Input=    
+  Output=5, 
+ }     
+  {    
+  Type=XOR 
+UniqueID=16 
+Input=  
+  Output= 
+    }    
+}

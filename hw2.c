@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX_INPUT_SIZE 12
+#define MAX_INPUT_SIZE 15
 #define MAX_N 5000
 
 typedef struct vector {
